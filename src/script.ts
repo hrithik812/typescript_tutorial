@@ -2,7 +2,8 @@
 
 // import './v2-union-config.js'
 // import './v1-mdoule-config.js'
-import './oop-config.js'
+// import './oop-config.js'
+import './oop-config-3.js'
 //Type Safe Function
 
 // greetings()
