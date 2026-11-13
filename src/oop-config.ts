@@ -22,7 +22,7 @@ class Employee{
     }
     get baseSalary(): number{
           return this._baseSalary
-    }
+    }   
     set baseSalary(newSalary:number){
         if(newSalary<0){
             throw new Error("Salary can not be zero")
@@ -35,15 +35,14 @@ class Employee{
 }
 
 
+
+
 const employee=new Employee("Mir",2000);
 const employee2=new Employee("Mizan",24000);
 
 console.log(employee instanceof Employee);
 console.log(employee2 instanceof Employee);
 
-
 console.log(employee.describe());
-
-
 
 export{}
