@@ -34,6 +34,14 @@ class Employee{
     }
 }
 
+class Manager extends Employee{
+    teamMemberCount:number;
+
+    constructor(teamMemberCount:number,name:string,_baseSalary:number){
+        super(name,_baseSalary);
+        this.teamMemberCount=teamMemberCount
+    }
+}
 
 
 
